@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"mainClassName": "org.apache.spark.examples.SparkPi",
+					"mainClassName": "org.apache.spark.HelloWorld.SparkPi",
 					"libraries": [
 						{
 							"jar": "dbfs:/FileStore/jars/60ebf4de_a2cc_4b89_87d5_d7442148b145-helloworld.jar"
