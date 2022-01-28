@@ -1,0 +1,27 @@
+{
+	"name": "ssis-integrationRuntime1",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "Central India",
+				"nodeSize": "Standard_D2_v3",
+				"numberOfNodes": 2,
+				"maxParallelExecutionsPerNode": 2
+			},
+			"ssisProperties": {
+				"catalogInfo": {
+					"catalogServerEndpoint": "server-poc2.database.windows.net",
+					"catalogAdminUserName": "server-poc",
+					"catalogAdminPassword": {
+						"type": "SecureString",
+						"value": "**********"
+					},
+					"catalogPricingTier": "S1"
+				},
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}
