@@ -32,7 +32,32 @@
 							"type": "AzureDatabricksDeltaLakeImportCommand"
 						}
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"type": "String",
+									"ordinal": 1
+								},
+								"sink": {
+									"name": "name",
+									"type": "string"
+								}
+							},
+							{
+								"source": {
+									"type": "Int64",
+									"ordinal": 2
+								},
+								"sink": {
+									"name": "id",
+									"type": "Int"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
