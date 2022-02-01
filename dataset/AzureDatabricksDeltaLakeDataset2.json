@@ -11,15 +11,6 @@
 			"database": "schema1",
 			"table": "employee"
 		},
-		"schema": [
-			{
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"name": "id",
-				"type": "integer"
-			}
-		]
+		"schema": []
 	}
 }
