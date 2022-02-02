@@ -5,12 +5,6 @@
 			"referenceName": "ls_AzureDatabricksDeltaLake1",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"Table": {
-				"type": "string",
-				"defaultValue": "@Pipeline"
-			}
-		},
 		"annotations": [],
 		"type": "AzureDatabricksDeltaLakeDataset",
 		"typeProperties": {
